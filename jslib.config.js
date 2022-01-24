@@ -1,6 +1,6 @@
 module.exports = {
     // source code type, 'js' or 'ts'. 源码类型
-    srcType: 'ts',
+    srcType: 'js',
     // name for UMD export. e.g., 'myLib' or 'lib.util'. UMD模式出口名，浏览器下为全局变量名
     globalName: 'umdName',
     // Code to insert at top of bundle (outside wrapper). 打包文件头部内容

@@ -4,3 +4,13 @@ export function cool():void {
 
 export const addTs: (num: number, num2: number) => number
  = (num: number, num2: number): number => num + num2
+
+class HongqiActivityManager {
+    a: number
+    b: number
+    
+    constructor(a, b) {
+        this.a = a
+        this.b = b
+    }
+}
