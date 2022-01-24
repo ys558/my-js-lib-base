@@ -19,7 +19,6 @@ export default {
     commonjs({
       include: 'node_modules/**',
     }),
-    getCompiler(),
     babel({
       presets: [
         [
@@ -43,6 +42,7 @@ export default {
       plugins: ['@babel/plugin-transform-runtime'],
       runtimeHelpers: true,
       exclude: 'node_modules/**'
-    })
+    }),
+    getCompiler(),
   ]
 }
